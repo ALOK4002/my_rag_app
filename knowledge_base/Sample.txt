@@ -1,0 +1,7 @@
+Python is a high-level programming language created by Guido van Rossum in 1991.
+It emphasizes code readability and simplicity. Python supports object-oriented,
+procedural, and functional programming paradigms.
+
+LangChain is a framework for building applications with large language models.
+It provides tools for document loading, text splitting, embeddings, and retrieval.
+Alok has started learning RAG on 2 May 2026 .
