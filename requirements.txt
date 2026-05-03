@@ -1,4 +1,5 @@
 langchain
+langchain-core
 langchain-community
 langchain-openai
 langchain-groq
@@ -8,3 +9,5 @@ duckduckgo-search
 pypdf
 python-dotenv
 tiktoken
+ddgs
+langchain-chroma

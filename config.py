@@ -16,13 +16,13 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 # --- Retrieval Settings ---
 TOP_K_RESULTS = 3                  # How many chunks to retrieve
-SIMILARITY_THRESHOLD = 0.4         # Minimum score to trust local results
+SIMILARITY_THRESHOLD = 1.5         # Minimum score to trust local results
                                    # ChromaDB returns "distance" not similarity
                                    # Lower distance = more similar
                                    # Distance < 0.4 means good match
 
 # --- LLM Settings ---
-LLM_MODEL = "llama3-8b-8192"       # Groq's free fast model
+LLM_MODEL = "llama-3.3-70b-versatile"      # Groq's free fast mode
 # LLM_MODEL = "gpt-4o-mini"        # Use this if using OpenAI
 
 # --- Web Search Settings ---

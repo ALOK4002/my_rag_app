@@ -2,6 +2,30 @@ Python is a high-level programming language created by Guido van Rossum in 1991.
 It emphasizes code readability and simplicity. Python supports object-oriented,
 procedural, and functional programming paradigms.
 
+Python has a large standard library that covers internet protocols, string operations,
+web services and operating system interfaces. Many programming tasks are already
+scripted into the standard library which reduces code length significantly.
+
+Python is widely used in data science, machine learning, and artificial intelligence.
+Popular libraries include NumPy for numerical computing, Pandas for data manipulation,
+Matplotlib for data visualization, and Scikit-learn for machine learning.
+
 LangChain is a framework for building applications with large language models.
 It provides tools for document loading, text splitting, embeddings, and retrieval.
-Alok has started learning RAG on 2 May 2026 .
+LangChain supports many LLM providers including OpenAI, Groq, and Anthropic.
+
+ChromaDB is an open source vector database for storing and searching embeddings.
+It runs locally and persists data to disk using SQLite as its storage backend.
+ChromaDB supports similarity search using cosine distance and L2 distance metrics.
+
+RAG stands for Retrieval Augmented Generation. It combines information retrieval
+with text generation. Instead of relying only on the LLMs trained knowledge,
+RAG retrieves relevant documents and provides them as context to the LLM.
+
+Embeddings are numerical representations of text in vector space.
+Similar texts have similar embeddings. The all-MiniLM-L6-v2 model creates
+embeddings with 384 dimensions used to find semantically similar documents.
+
+Groq is a company that provides fast AI inference using their custom LPU hardware.
+Their API is compatible with OpenAI SDK. Llama3 model on Groq is extremely fast
+and available on a generous free tier making it ideal for learning.
